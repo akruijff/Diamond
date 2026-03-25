@@ -23,7 +23,7 @@
 
     internal class ReadonlyCursor(int x, int y) : IReadonlyCursor
     {
-        public int X => x;
+        public int X => x; // The intent is to expand with a setter
         public int Y => y;
     }
 
