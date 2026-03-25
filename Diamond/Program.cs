@@ -1,9 +1,5 @@
-# Diamond
-
-![](./Diamond-900.png)
-[Full image](./Diamond.png)
-
-'''cs
+﻿namespace Diamond
+{
     internal class Program
     {
         static void Main(string[] args)
@@ -36,4 +32,4 @@
         public int X { get => x; set => field = x; } // caused by double declaration
         public int Y { get => x; set => field = y; }
     }
-'''
+}
